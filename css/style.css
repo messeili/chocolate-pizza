@@ -1,0 +1,59 @@
+/* Fonts */
+
+/* Delicious */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+/* BestBlog  */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
+/* Form */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+
+html {
+margin:0 auto; 
+width:960px;
+margin-top: 80px;
+margin-bottom: 120px;
+}
+
+.delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.best {
+    font-family: 'IBM Plex Mono';
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.form {
+    font-family: patrick hand, cursive;
+}
+
+.sitelogo{
+    width: 50%;
+    display: inline-block;
+}
+
+nav{
+    width: 50%;
+    display: inline-block;
+    float: right;
+    width: 290px;
+}
+
+.sitelogo img {
+    float: left;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+#rss {
+    padding-left: 10px;
+}
