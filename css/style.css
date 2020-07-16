@@ -6,8 +6,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
 /* Form */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-
-
+/* chocolate */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
 
 
 html {
@@ -15,6 +15,11 @@ margin:0 auto;
 width:960px;
 margin-top: 80px;
 margin-bottom: 120px;
+}
+
+
+header{
+    margin-bottom: 100px;
 }
 
 .delicious {
@@ -28,15 +33,36 @@ margin-bottom: 120px;
     font-weight: bolder;
     font-size: 12px;
 }
+.posted{
+    font-family: 'IBM Plex Mono';
+    font-size: 12px;
+    font-weight: bold;
+    color: darkgrey;
+    display: inline-block;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Exo', sans-serif;
+}
 
 .form {
     font-family: patrick hand, cursive;
+    background-image:url("img/list-bg.png");
+    display: inherit;
+    padding-top: 10px;
+    
+    
+    
+
 }
 
 .sitelogo{
     width: 50%;
     display: inline-block;
 }
+
 
 nav{
     width: 50%;
@@ -56,4 +82,82 @@ nav ul li{
 
 #rss {
     padding-left: 10px;
+}
+#print{
+    display: inline-block;
+    width: 75px;
+    margin-left: 530px;
+    margin-bottom: 20px;
+}
+#title{
+    display: inline-block;
+}
+.paragraph p{
+    text-indent: 30px;
+    width: 900px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.background img{
+    z-index: -1;
+    position: absolute;
+}
+fieldset:nth-of-type(1){
+    display: inline-block;
+    margin-left: 75px;
+    
+}
+
+fieldset:nth-of-type(2){
+    display: inline-block;
+    margin-left: 300px;
+
+}
+label, input{
+        margin-bottom: 15px;
+}
+
+#contact {
+    width: 700px;
+    margin-top: 75px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact p:nth-of-type(1){
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+  
+
+}
+#contact p:nth-of-type(2){
+    color: gray;
+    font-size: 15px;
+    margin-top: 6px;
+   
+}
+
+#contact img:nth-of-type(1){
+    float: left;
+    margin-right: 10px;
+
+}
+button{
+    color: white;
+    float: right;
+    width: 200px;
+    font-size: 25px;
+    background-color: rgb(202, 73, 51);
+    padding: 20px 40px 20px 40px;
+    margin-top: 75px;
+}
+footer{
+    text-align: center;
+    bottom: 0;
+    margin: auto;
+    margin-top: 200px;
 }
